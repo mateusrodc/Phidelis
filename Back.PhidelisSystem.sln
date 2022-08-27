@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.PhidelisSystem", "Back.PhidelisSystem\Back.PhidelisSystem.csproj", "{80965376-2B21-4312-B91A-B8BEF324943C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.PhidelisSystem.Application", "Back.PhidelisSystem.Application\Back.PhidelisSystem.Application.csproj", "{A07159FC-8B8A-442C-911E-3E99A51259BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{347C8BC8-ECB7-4E9E-B202-5D99A6B7BF32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{F12BF567-D5FA-4B89-BBA7-AEBC6FC07112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{818B2725-E8CC-4D4E-9E56-38082C57F2AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{FF6B9CA0-D01D-4318-AB35-A4B24FAEFE14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.PhidelisSystem.Domain", "Back.PhidelisSystem.Domain\Back.PhidelisSystem.Domain.csproj", "{F72ABE95-BB1D-420C-87E4-545F9857B074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back.PhidelisSystem.Infra", "Back.PhidelisSystem.Infra\Back.PhidelisSystem.Infra.csproj", "{6AD52F19-DCB4-4D7D-A5AA-B9E8DDB611F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80965376-2B21-4312-B91A-B8BEF324943C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80965376-2B21-4312-B91A-B8BEF324943C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80965376-2B21-4312-B91A-B8BEF324943C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80965376-2B21-4312-B91A-B8BEF324943C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07159FC-8B8A-442C-911E-3E99A51259BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07159FC-8B8A-442C-911E-3E99A51259BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07159FC-8B8A-442C-911E-3E99A51259BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07159FC-8B8A-442C-911E-3E99A51259BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72ABE95-BB1D-420C-87E4-545F9857B074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72ABE95-BB1D-420C-87E4-545F9857B074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72ABE95-BB1D-420C-87E4-545F9857B074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72ABE95-BB1D-420C-87E4-545F9857B074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD52F19-DCB4-4D7D-A5AA-B9E8DDB611F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD52F19-DCB4-4D7D-A5AA-B9E8DDB611F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD52F19-DCB4-4D7D-A5AA-B9E8DDB611F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD52F19-DCB4-4D7D-A5AA-B9E8DDB611F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80965376-2B21-4312-B91A-B8BEF324943C} = {347C8BC8-ECB7-4E9E-B202-5D99A6B7BF32}
+		{A07159FC-8B8A-442C-911E-3E99A51259BC} = {F12BF567-D5FA-4B89-BBA7-AEBC6FC07112}
+		{F72ABE95-BB1D-420C-87E4-545F9857B074} = {818B2725-E8CC-4D4E-9E56-38082C57F2AB}
+		{6AD52F19-DCB4-4D7D-A5AA-B9E8DDB611F9} = {FF6B9CA0-D01D-4318-AB35-A4B24FAEFE14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BEC86CA-6DAA-4403-A555-59A61DB94C9B}
+	EndGlobalSection
+EndGlobal

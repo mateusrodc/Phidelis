@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Back.PhidelisSystem.Application/1.0.0": {
+        "dependencies": {
+          "Back.PhidelisSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Back.PhidelisSystem.Application.dll": {}
+        }
+      },
+      "Back.PhidelisSystem.Domain/1.0.0": {
+        "runtime": {
+          "Back.PhidelisSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Back.PhidelisSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Back.PhidelisSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\bin\Debug\net6.0\Back.PhidelisSystem.Application.deps.json
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\bin\Debug\net6.0\Back.PhidelisSystem.Application.dll
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\bin\Debug\net6.0\ref\Back.PhidelisSystem.Application.dll
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\bin\Debug\net6.0\Back.PhidelisSystem.Application.pdb
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\bin\Debug\net6.0\Back.PhidelisSystem.Domain.dll
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\bin\Debug\net6.0\Back.PhidelisSystem.Domain.pdb
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\Back.PhidelisSystem.Application.csproj.AssemblyReference.cache
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\Back.PhidelisSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\Back.PhidelisSystem.Application.AssemblyInfoInputs.cache
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\Back.PhidelisSystem.Application.AssemblyInfo.cs
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\Back.PhidelisSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\Back.PhidelisSystem.Application.csproj.CopyComplete
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\Back.PhidelisSystem.Application.dll
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\ref\Back.PhidelisSystem.Application.dll
+C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Application\obj\Debug\net6.0\Back.PhidelisSystem.Application.pdb
