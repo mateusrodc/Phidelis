@@ -18,8 +18,27 @@ namespace Back.PhidelisSystem.Application.Services
         }
         public async Task<bool> CreateStudent(Student student)
         {
-            var result = await _studentRepository.CreateStudent(student);
-            return true;
+            var studentExists = await GetStudentByNameOrMother(student.name, student.mother);
+
+            if (!studentExists)
+
+                return await _studentRepository.CreateStudent(student);
+
+            return false;
+            
+            
+        }
+        public async Task<bool> GetStudentByNameOrMother(string name, string mother)
+        {
+            return await _studentRepository.GetStudentByNameOrMother(name,mother);
+        }
+        public async Task<List<Student>> GetStudentsRegistereds()
+        {
+            return await _studentRepository.GetStudentsRegistereds();
+        }
+        public async Task<Student> GetStudentById(int id)
+        {
+            return await _studentRepository.GetStudentById(id);
         }
     }
 }

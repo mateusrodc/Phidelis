@@ -10,5 +10,9 @@ namespace Back.PhidelisSystem.Domain.Interfaces
     public interface IStudentRepository
     {
         Task<bool> CreateStudent(Student student);
+        Task<bool> GetStudentByNameOrMother(string name, string mother);
+        Task<List<Student>> GetStudentsRegistereds();
+        Task<bool> UpdateStudent (int idStudent);
+        Task<Student> GetStudentById(int id);
     }
 }

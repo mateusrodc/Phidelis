@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem\\Back.PhidelisSystem.csproj": {}
+    "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem\\Back.PhidelisSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj": {
+    "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj",
         "projectName": "Back.PhidelisSystem.Application",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Application\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj"
+              "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj"
               }
             }
           }
@@ -58,21 +62,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj": {
+    "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj",
         "projectName": "Back.PhidelisSystem.Domain",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Domain\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,21 +120,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj": {
+    "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj",
         "projectName": "Back.PhidelisSystem.Infra",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj",
-        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Infra\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj"
+              "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Domain\\Back.PhidelisSystem.Domain.csproj"
               }
             }
           }
@@ -176,21 +188,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem\\Back.PhidelisSystem.csproj": {
+    "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem\\Back.PhidelisSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem\\Back.PhidelisSystem.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem\\Back.PhidelisSystem.csproj",
         "projectName": "Back.PhidelisSystem",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem\\Back.PhidelisSystem.csproj",
-        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem\\Back.PhidelisSystem.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,11 +220,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj": {
-                "projectPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj"
+              "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj": {
+                "projectPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Application\\Back.PhidelisSystem.Application.csproj"
               },
-              "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj": {
-                "projectPath": "C:\\Users\\Mateus\\Desktop\\Projects\\Back.PhidelisSystem\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj"
+              "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj": {
+                "projectPath": "C:\\Users\\mateu\\Desktop\\Phidelis\\Back.PhidelisSystem.Infra\\Back.PhidelisSystem.Infra.csproj"
               }
             }
           }
@@ -258,7 +274,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

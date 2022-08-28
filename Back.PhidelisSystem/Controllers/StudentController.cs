@@ -16,11 +16,42 @@ namespace Back.PhidelisSystem.Controllers
         [Route("newstudent")]
         public async Task<ActionResult<dynamic>> CreateStudent([FromBody] Student model)
         {
-            var result = await _studentApplication.CreateStudent(model);
-            return new 
+            try
             {
-                message = "Student has been created"
-            };
+                var result = await _studentApplication.CreateStudent(model);
+
+                if (result)
+                {
+                    return new
+                    {
+                        message = "Student has been created"
+                    };
+                }
+                return new
+                {
+                    message = "Student already exists"
+                };
+            }
+            catch (Exception e)
+            {
+                return new
+                {
+                    message = e.Message
+                };
+            }
+        }
+        [HttpGet]
+        [Route("registereds")]
+        public async Task<ActionResult<List<Student>>> GetStudentsRegistereds()
+        {
+            try
+            {
+                return await _studentApplication.GetStudentsRegistereds();
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
         }
     }
 }
