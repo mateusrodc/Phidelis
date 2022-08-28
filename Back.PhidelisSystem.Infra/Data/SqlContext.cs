@@ -19,7 +19,15 @@ namespace Back.PhidelisSystem.Infra.Data
 
         public DbSet<Student> student { get; set; }
         public DbSet<Registration> registration { get; set; }
-        
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Registration>()
+                .HasOne<Student>()
+                .WithMany()
+                .HasForeignKey(p => p.studentid);
+        }
+
 
         public override int SaveChanges()
         {
