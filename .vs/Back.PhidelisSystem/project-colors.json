@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "80965376-2b21-4312-b91a-b8bef324943c": {
+      "ProjectGuid": "80965376-2b21-4312-b91a-b8bef324943c",
+      "DisplayName": "Back.PhidelisSystem",
+      "ColorIndex": 0
+    },
+    "a07159fc-8b8a-442c-911e-3e99a51259bc": {
+      "ProjectGuid": "a07159fc-8b8a-442c-911e-3e99a51259bc",
+      "DisplayName": "Back.PhidelisSystem.Application",
+      "ColorIndex": 1
+    },
+    "f72abe95-bb1d-420c-87e4-545f9857b074": {
+      "ProjectGuid": "f72abe95-bb1d-420c-87e4-545f9857b074",
+      "DisplayName": "Back.PhidelisSystem.Domain",
+      "ColorIndex": 2
+    },
+    "6ad52f19-dcb4-4d7d-a5aa-b9e8ddb611f9": {
+      "ProjectGuid": "6ad52f19-dcb4-4d7d-a5aa-b9e8ddb611f9",
+      "DisplayName": "Back.PhidelisSystem.Infra",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "c2ecf2d7-9bec-488e-98aa-a2603f8a2ad2": {
+      "ProjectGuid": "c2ecf2d7-9bec-488e-98aa-a2603f8a2ad2",
+      "DisplayName": "Back.PhidelisSystem.Domain.Test",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Back.PhidelisSystem.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,10 @@ namespace Back.PhidelisSystem.Application.Interfaces
 {
     public interface IRegistrationApplication
     {
+        Task<bool> CreateRegistration(Registration registration);
+        Task<bool> GetRegistrationByStudentId(int studentId);
+        Task<bool> DeleteRegistration(int idRegistration);
+        Task<List<Registration>> GetRegistrations();
+        Task<bool> UpdateRegistration(Registration registration);
     }
 }

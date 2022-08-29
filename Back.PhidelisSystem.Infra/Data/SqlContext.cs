@@ -17,9 +17,17 @@ namespace Back.PhidelisSystem.Infra.Data
         public bool IgnoreSaveChangeAndUseTransaction { get; set; }
         public SqlContext(DbContextOptions<SqlContext> options) : base(options) { }
 
-        public DbSet<Student> Student { get; set; }
-        //public DbSet<Registration> Registration { get; set; }
-        
+        public DbSet<Student> student { get; set; }
+        public DbSet<Registration> registration { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Registration>()
+                .HasOne<Student>()
+                .WithMany()
+                .HasForeignKey(p => p.studentid);
+        }
+
 
         public override int SaveChanges()
         {

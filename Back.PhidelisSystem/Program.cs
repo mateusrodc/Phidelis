@@ -2,6 +2,7 @@ using Back.PhidelisSystem;
 using Back.PhidelisSystem.Application.Interfaces;
 using Back.PhidelisSystem.Application.Services;
 using Back.PhidelisSystem.Domain.Interfaces;
+using Back.PhidelisSystem.HostedService;
 using Back.PhidelisSystem.Infra;
 using Back.PhidelisSystem.Infra.Data;
 using Back.PhidelisSystem.Infra.Data.Repositories;
@@ -15,6 +16,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddHostedService<TimerHostedService>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -30,14 +33,14 @@ builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 //builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddAuthentication(x =>
 {
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(x =>
 {
-    x.RequireHttpsMetadata = false;
-    x.SaveToken = true;
-    x.TokenValidationParameters = new TokenValidationParameters
+x.RequireHttpsMetadata = false;
+x.SaveToken = true;
+x.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(key),
@@ -46,11 +49,16 @@ builder.Services.AddAuthentication(x =>
     };
 });
 
+
+
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }

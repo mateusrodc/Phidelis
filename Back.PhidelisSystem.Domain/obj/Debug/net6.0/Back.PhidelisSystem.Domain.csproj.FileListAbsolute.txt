@@ -9,4 +9,15 @@ C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Domain\
 C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.dll
 C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Domain\obj\Debug\net6.0\ref\Back.PhidelisSystem.Domain.dll
 C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.pdb
-C:\Users\Mateus\Desktop\Projects\Back.PhidelisSystem\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\bin\Debug\net6.0\Back.PhidelisSystem.Domain.deps.json
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\bin\Debug\net6.0\Back.PhidelisSystem.Domain.dll
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\bin\Debug\net6.0\Back.PhidelisSystem.Domain.pdb
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.AssemblyInfo.cs
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.dll
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\refint\Back.PhidelisSystem.Domain.dll
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\Back.PhidelisSystem.Domain.pdb
+C:\Users\mateu\Desktop\Phidelis\Back.PhidelisSystem.Domain\obj\Debug\net6.0\ref\Back.PhidelisSystem.Domain.dll
