@@ -74,5 +74,15 @@ namespace Back.PhidelisSystem.Controllers
                 throw e;
             }
         }
+        [HttpGet]
+        [Route("")]
+        public async Task<ActionResult<dynamic>> Home()
+        {
+            return new
+            {
+                message = "It's Works",
+                documentation = "/swagger"
+            };
+        }
     }
 }
