@@ -16,14 +16,14 @@ namespace Back.PhidelisSystem.Infra.Data.Repositories
         {
             _context = context;
         }
-        public async Task<bool> CreateStudent(Student model)
+        public async Task<dynamic> CreateStudent(Student model)
         {
-            var student = new Student(model.name, model.mother, model.birthdate, false);
+            var student = new Student(model.name, model.mother, model.birthdate, false, DateTime.UtcNow);
 
             _context.student.Add(student);
-            var teste = _context.SaveChanges();
+            _context.SaveChanges();
 
-            return true;
+            return student.id;
         }
         public async Task<bool> GetStudentByNameOrMother(string name, string mother)
         {
@@ -34,16 +34,20 @@ namespace Back.PhidelisSystem.Infra.Data.Repositories
 
             return true;
         }
+
         public async Task<List<Student>> GetStudentsRegistereds()
         {
-            return _context.student.Where(x => x.registered == true).ToList();
+            return _context.student.Where(x => x.registered == true).OrderByDescending(x => x.registrationdate).ToList();
         }
-        public async Task<bool> UpdateStudent (int idStudent)
+
+        public async Task<bool> UpdateStudent (int idStudent, bool registered)
         {
             var student = _context.student.Where(x => x.id == idStudent).FirstOrDefault();
             if(student != null)
             {
-                student.registered = true;
+                student.registered = registered;
+                student.registrationdate = DateTime.UtcNow;
+
                 _context.Update(student);
                 _context.SaveChanges();
                 return true;
@@ -53,6 +57,11 @@ namespace Back.PhidelisSystem.Infra.Data.Repositories
         public async Task<Student> GetStudentById(int id)
         {
             var result = _context.student.Where(x => x.id == id).FirstOrDefault();
+            return result;
+        }
+        public async Task<List<Student>> FilterStudentByName(string name)
+        {
+            var result = _context.student.Where(x => x.name.Contains(name) && x.registered == true).Select(x => x).OrderByDescending(x => x.registrationdate).ToList();
             return result;
         }
     }

@@ -10,7 +10,6 @@ namespace Back.PhidelisSystem.Domain.Models
     public class Registration
     {
         public int id { get; set; }
-        public DateTime registrationdate { get; set; }
         public int studentid { get; set; }
         public string grade { get; set; }
         public string lesson { get; set; }
@@ -18,9 +17,8 @@ namespace Back.PhidelisSystem.Domain.Models
         {
 
         }
-        public Registration(DateTime _registrationdate, int _studentid, string _grade, string _lesson)
-        {
-            registrationdate = _registrationdate;
+        public Registration(int _studentid, string _grade, string _lesson)
+        { 
             studentid = _studentid;
             grade = _grade;
             lesson = _lesson;

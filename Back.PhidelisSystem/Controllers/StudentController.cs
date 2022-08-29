@@ -20,10 +20,11 @@ namespace Back.PhidelisSystem.Controllers
             {
                 var result = await _studentApplication.CreateStudent(model);
 
-                if (result)
+                if (result != null)
                 {
                     return new
                     {
+                        id = result,
                         message = "Student has been created"
                     };
                 }
@@ -47,6 +48,26 @@ namespace Back.PhidelisSystem.Controllers
             try
             {
                 return await _studentApplication.GetStudentsRegistereds();
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+        }
+        [HttpGet]
+        [Route("filterbyname")]
+        public async Task<List<Student>> FilterStudentByName([FromQuery] string name)
+        {
+            try
+            {
+                var students = await _studentApplication.FilterStudentByName(name);
+
+                if(students != null)
+                {
+                    return students;
+                }
+
+                throw new Exception("No student found");
             }
             catch(Exception e)
             {

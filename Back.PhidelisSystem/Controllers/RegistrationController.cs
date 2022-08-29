@@ -40,5 +40,71 @@ namespace Back.PhidelisSystem.Controllers
             }
             
         }
+        [HttpDelete]
+        [Route("deleteregistration")]
+        public async Task<dynamic> DeleteRegistration([FromQuery] int id)
+        {
+            try
+            {
+                var result = await _registrationApplication.DeleteRegistration(id);
+                if (result)
+                {
+                    return new
+                    {
+                        message = "Registration has been deleted"
+                    };
+                }
+                return new
+                {
+                    message = "Registration has'nt been deleted"
+                };
+            }
+            catch (Exception e)
+            {
+                return new
+                {
+                    message = e.Message
+                };
+            }
+            
+        }
+        [HttpGet]
+        [Route("registrations")]
+        public async Task<List<Registration>> GetRegistrations()
+        {
+            return await _registrationApplication.GetRegistrations();
+        }
+        [HttpPut]
+        [Route("updateregistration")]
+        public async Task<ActionResult<dynamic>> UpdateRegistration([FromBody] Registration model)
+        {
+            try
+            {
+                var result = await _registrationApplication.UpdateRegistration(model);
+                if(result)
+                {
+                    return new
+                    {
+                        message = "Registration updated succesful"
+                    };
+                }
+                else
+                {
+                    return new
+                    {
+                        message = "Registration not updated"
+                    };
+                }
+            }
+            catch(Exception e)
+            {
+                return new
+                {
+                    error = e.Message
+                };
+            }
+            
+        }
+        
     }
 }

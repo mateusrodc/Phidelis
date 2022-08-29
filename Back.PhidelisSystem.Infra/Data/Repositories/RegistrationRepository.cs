@@ -13,7 +13,7 @@ namespace Back.PhidelisSystem.Infra
         }
         public async Task<bool> CreateRegistration(Registration registration)
         {
-            var regist = new Registration(DateTime.UtcNow, registration.studentid, registration.grade, registration.lesson);
+            var regist = new Registration(registration.studentid, registration.grade, registration.lesson);
             _context.registration.Add(regist);
             _context.SaveChanges();
 
@@ -27,6 +27,35 @@ namespace Back.PhidelisSystem.Infra
                 return false;
             }
             return true;
+        }
+        public async Task<bool> DeleteRegistration(int idRegistration)
+        {
+            var registration = _context.registration.Where(x => x.id == idRegistration).FirstOrDefault();
+            if(registration != null)
+            {
+                _context.registration.Remove(registration);
+                _context.SaveChanges();
+
+                return true;
+            }
+            return false;
+        }
+        public async Task<List<Registration>> GetRegistrations()
+        {
+            var result = _context.registration.ToList();
+            return result;
+        }
+        public async Task<bool> UpdateRegistration(Registration registration)
+        {
+            var register = _context.registration.Where(x => x.id == registration.id).FirstOrDefault();
+            if(register != null)
+            {
+                _context.registration.Update(registration);
+                _context.SaveChanges();
+                return true;
+            }
+            
+            return false;
         }
     }
 }
